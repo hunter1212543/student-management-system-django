@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #f8fafc, #eef2ff);
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1e293b;
+}
+
+/* Center wrapper */
+.center-box {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Page title */
+h1 {
+    font-size: 34px;
+    margin-bottom: 22px;
+    color: #1e293b;
+    letter-spacing: 0.6px;
+}
+
+/* Login card */
+.login-container {
+    background: rgba(255, 255, 255, 0.97);
+    backdrop-filter: blur(14px);
+    padding: 38px 42px;
+    width: 360px;
+    border-radius: 16px;
+    box-shadow: 0 16px 40px rgba(79, 70, 229, 0.15);
+    text-align: left;
+    border: 1px solid #e2e8f0;
+}
+
+/* Labels */
+.login-container label {
+    font-weight: 600;
+    margin-bottom: 6px;
+    display: block;
+    color: #334155;
+}
+
+/* Inputs */
+.login-container input {
+    width: 100%;
+    padding: 13px;
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #1e293b;
+    background-color: #ffffff;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.login-container input::placeholder {
+    color: #94a3b8;
+}
+
+.login-container input:focus {
+    border-color: #4f46e5;
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2);
+    outline: none;
+}
+
+/* Primary button */
+button {
+    width: 100%;
+    padding: 13px;
+    background: linear-gradient(135deg, #4f46e5, #6366f1);
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 26px rgba(79, 70, 229, 0.4);
+}
+
+/* Create account text */
+.create-account {
+    margin-top: 22px;
+    font-size: 15px;
+    color: #64748b;
+}
+
+.create-account a {
+    color: #4f46e5;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.create-account a:hover {
+    color: #facc15;
+    text-decoration: underline;
+}
